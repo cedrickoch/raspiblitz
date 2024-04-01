@@ -710,8 +710,8 @@ apt_install --no-install-recommends python3-systemd fail2ban
 
 # *** CACHE DISK IN RAM & KEYVALUE-STORE***
 echo "Activating CACHE RAM DISK ... "
-/home/admin/_cache.sh ramdisk on
-/home/admin/_cache.sh keyvalue on
+#/home/admin/_cache.sh ramdisk on
+#/home/admin/_cache.sh keyvalue on
 
 # *** Wifi, Bluetooth & other RaspberryPi configs ***
 if [ "${baseimage}" = "raspios_arm64"  ] || [ "${baseimage}" = "debian" ]; then
